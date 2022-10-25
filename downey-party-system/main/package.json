@@ -1,0 +1,16 @@
+{
+  "name": "downey-party-system",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "start": "swc src -d dist && electron dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.3.10",
+    "electron": "^21.2.0",
+    "typescript": "^4.8.4"
+  }
+}
