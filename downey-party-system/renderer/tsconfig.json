@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "esModuleInterop": true,
+        "types": ["react/next", "react-dom/next"],
+        "strict": true,
+        "isolatedModules": true
+    }
+}
